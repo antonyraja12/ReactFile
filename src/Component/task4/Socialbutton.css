@@ -1,0 +1,9 @@
+#ssimg{
+    background-image: url('../../social.jpeg');
+    height: 100vh;
+    color: white;
+}
+.fs{
+    font-size: 50px;
+    font-weight: 700;
+}
