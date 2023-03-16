@@ -1,0 +1,17 @@
+.homeP{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.937);
+}
+.imgcontent{
+    
+    background-image: url("../../../port_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.contentP{
+    padding-top: 150px;
+}
+.fwh{
+    font-size: 70px;
+}

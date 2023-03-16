@@ -1,19 +1,46 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import './menu.css'
 
 export function Menu(){
 
     return(
         <>
-            <ul className="nav bg-secondary">
-               <Link to='/'><li className=" nav-item ms-3 text-dark ">Task1</li></Link>
-               <Link to='/congrates'><li className=" ms-3 text-dark ">Task2</li></Link>
-               <Link to='/Superleague'> <li  className="ms-3 text-dark">Task3</li></Link>
-               <Link to='/Socialmedia'><li className="ms-3 text-dark">Task4</li></Link>
-               <Link to='/Notification'><li className="ms-3 text-dark">Task5</li></Link>
-            </ul>        
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <Link class="navbar-brand" href="#">Moodle Assesment</Link>
+ <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+ <Link className="link1" to='/'><li className=" text-decoration-none  ms-3 text-dark ">HelloWorld</li></Link>
+ <Link className="link1" to='/congrates'><li className=" ms-3 text-dark ">Congrates</li></Link>
+ <Link className="link1" to='/Superleague'> <li  className="ms-3 text-dark">Superleague</li></Link>
+ <Link className="link1" to='/Socialmedia'><li className="ms-3 text-dark">Socialbutton</li></Link>
+ <Link className="link1" to='/Notification'><li className="ms-3 text-dark">Notification</li></Link>
+   <li class="nav-item dropdown ">
+          <a class="ms-3 dropdown-toggle link1 nav1 text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            More
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><Link className="link1"to='/login'><li className="ms-3 text-dark">LoginPage</li></Link></li> 
+          <li><Link className="link1" to="/tech/card"><li className="ms-3 text-dark">Technology Card</li></Link></li>
+               </ul>
+        </li>
+        <Link className="link1" to="/portfolio"><li className="ms-3 text-dark">portfolio</li></Link> 
+
+     </ul>
+</div> 
+</div>
+</nav>
         </>
-    )
+    );
 }
+
+ 
+
  

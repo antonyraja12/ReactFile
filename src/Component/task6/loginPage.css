@@ -1,0 +1,18 @@
+.bglogin{
+    background:linear-gradient(to right,rgb(233, 103, 162),rgb(183, 9, 183)) ;
+    height: 100vh;
+}
+.bgbut{
+    box-sizing: border-box;
+    width: 250px;
+    background-color: rgb(18, 220, 18);
+}
+.divlog{
+    width: 250px;
+    padding-left: 10px;
+    background-color: rgba(209, 209, 203, 0.403) !important;
+}
+.inplogin{
+    outline: none;
+    
+}

@@ -4,7 +4,7 @@ import './Socialbutton.css'
 export function Socialmedia(){
     return(
     <>
-        <div className="d-flex justify-content-center d-flex align-items-center "id="ssimg">
+        <div className="d-flex justify-content-center  align-items-center "id="ssimg">
             <div className="col-lg-6  ">
                 <p className="fs d-flex justify-content-center  ">Social Buttons</p>
                 <div className="d-flex justify-content-center"> 
