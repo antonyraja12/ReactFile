@@ -1,0 +1,17 @@
+.bgfruit{
+  max-height: 100%;
+  border-radius: 30px;
+  margin: 100px !important;
+   
+    
+}
+
+
+.btnfruit{
+    box-sizing: border-box;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: rgb(238, 19, 19);
+}

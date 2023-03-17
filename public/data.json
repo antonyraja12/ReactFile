@@ -1,0 +1,155 @@
+[
+    {
+        "Brand Name":"Apple",
+        "Model":"iPhone 14 Plus",
+        "Pricing":"65,999",
+        "Network Type":"5G",
+        "Rating":4.4,
+        "image":"https://www.jiomart.com/images/product/420x420/493177764/apple-iphone-14-plus-128-gb-midnight-digital-o493177764-p593688259-0-202209091844.jpeg"
+    },
+    {
+        "Brand Name":"Apple",
+        "Model":"iPhone 14 Pro",
+        "Pricing":"132,999",
+        "Network Type":"5G",
+        "Rating":4.8,
+        "image":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71ZDY57yTQL._SX522_.jpg"
+    },
+    {
+        "Brand Name":"Apple",
+        "Model":"iPhone 14 Pro Max",
+        "Pricing":"127,999",
+        "Network Type":"5G",
+        "Rating":4.8,
+        "image":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71ZDY57yTQL._SX522_.jpg"
+    },
+    {
+        "Brand Name":"Apple",
+        "Model":"iPhone 14 Pro",
+        "Pricing":"132,999",
+        "Network Type":"5G",
+        "Rating":4.7,
+        "image":"https://fdn2.mobgsm.com/vv/pics/apple/apple-iphone-14-pro-4.jpg"
+    },
+    {
+        "Brand Name":"Apple",
+        "Model":"iPhone 13 Pro",
+        "Pricing":"119,900",
+        "Network Type":"5G",
+        "Rating":4.3,
+        "image":"https://i.gadgets360cdn.com/products/large/iphone-13-pro-400x800-1631648140.jpg?downsize=*:180"
+    },
+    {
+        "Brand Name":"Apple",
+        "Model":"iPhone 13 Pro max",
+        "Pricing":"134,999",
+        "Network Type":"5G",
+        "Rating":4.1,
+        "image":"https://rukminim1.flixcart.com/image/416/416/ktketu80/mobile/6/v/c/iphone-13-pro-max-mllh3hn-a-apple-original-imag6vpgpycue85h.jpeg?q=70"
+    },
+    {
+        "Brand Name":"Apple",
+        "Model":"iPhone 13 mini",
+        "Pricing":"58,4900",
+        "Network Type":"5G",
+        "Rating":4.8,
+        "image":"https://i.gadgets360cdn.com/products/large/iphone-13-mini-1-396x800-1631648715.jpg?downsize=*:180"
+    },
+    {
+        "Brand Name":"Apple",
+        "Model":"iPhone 12 Pro",
+        "Pricing":"106,999",
+        "Network Type":"5G",
+        "Rating":4.8,
+        "image":"https://i.gadgets360cdn.com/products/large/iphone-12-pro-399x800-1602617214.jpg?downsize=*:180"
+    },
+    {
+        "Brand Name":"Apple",
+        "Model":"iPhone 12 Pro Max",
+        "Pricing":"123,299",
+        "Network Type":"5G",
+        "Rating":4.8,
+        "image":"https://i.gadgets360cdn.com/products/large/iphone12promaxreviewcompare12Pro-1200x675-1606201930978.jpg?downsize=*:420&output-quality=80"
+    },
+    {
+        "Brand Name":"Apple",
+        "Model":"iPhone 12 mini",
+        "Pricing":"49,999",
+        "Network Type":"5G",
+        "Rating":4.3,
+        "image":"https://i.gadgets360cdn.com/products/large/iphone-12-all-404x800-1602616599.jpg?downsize=*:420&output-quality=80"
+    },
+    {
+        "Brand Name":"Apple",
+        "Model":"iPhone 11 Pro",
+        "Pricing":"87,099",
+        "Network Type":"5G",
+        "Rating":4.1,
+        "image":"https://i.gadgets360cdn.com/products/large/iphone-11-pro-402x800-1568197583.jpg?downsize=*:180"
+    },
+    {
+        "Brand Name":"Apple",
+        "Model":"iPhone 11 Pro Max",
+        "Pricing":"100,699",
+        "Network Type":"5G",
+        "Rating":4.4,
+        "image":"https://i.gadgets360cdn.com/products/large/iphone-11-pro-402x800-1568197583.jpg?downsize=*:180"
+    },
+    {
+        "Brand Name":"Apple",
+        "Model":"iPhone SE (2020)",
+        "Pricing":"28,990",
+        "Network Type":"5G",
+        "Rating":4.4,
+        "image":"https://i.gadgets360cdn.com/products/large/appleiphonesefront-394x800-1595680842378.jpeg?downsize=*:420&output-quality=80"
+    },
+    {
+        "Brand Name":"Apple",
+        "Model":"iPhone XR ",
+        "Pricing":"36,990",
+        "Network Type":"4G",
+        "Rating":4.8,
+        "image":"https://i.gadgets360cdn.com/products/large/1536782796_635_iphone_xr.jpg?downsize=*:180"
+    },
+    {
+        "Brand Name":"Apple",
+        "Model":"iPhone XS",
+        "Pricing":"69,998",
+        "Network Type":"4G",
+        "Rating":4.5,
+        "image":"https://i.gadgets360cdn.com/products/large/1536782640_635_iphone_xs.jpg?downsize=*:180"
+    },
+    {
+        "Brand Name":"Apple",
+        "Model":"iPhone XS Max",
+        "Pricing":"89,999",
+        "Network Type":"4G",
+        "Rating":4.4,
+        "image":"https://i.gadgets360cdn.com/products/large/1546416542_480_iPhoneXS.jpg?downsize=*:420&output-quality=80"
+    },
+    {
+        "Brand Name":"Apple",
+        "Model":"iPhone 8 Plus",
+        "Pricing":"29,999",
+        "Network Type":"4G",
+        "Rating":3.9,
+        "image":"https://drop.ndtv.com/TECH/product_database/images/913201715954AM_635_iphone_8_plus.jpeg?downsize=*:180"
+    },
+    {
+        "Brand Name":"Apple",
+        "Model":"iPhone X",
+        "Pricing":"91,900",
+        "Network Type":"5G",
+        "Rating":4.8,
+        "image":"https://drop.ndtv.com/TECH/product_database/images/913201720152AM_635_iphone_x.jpeg?downsize=*:180"
+    },
+    {
+        "Brand Name":"Apple",
+        "Model":"iPhone 7 Plus",
+        "Pricing":"26,999",
+        "Network Type":"5G",
+        "Rating":4.6,
+        "image":"https://drop.ndtv.com/TECH/product_database/images/982016125448AM_635_iphone_7_plus.jpeg?downsize=*:180"
+    }
+
+]
