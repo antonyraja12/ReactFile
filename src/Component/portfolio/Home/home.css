@@ -1,11 +1,5 @@
 .homeP{
     min-height: 100vh;
-    background-color:#30416e;
-    
-    background-image: url("https://i.pinimg.com/564x/39/e6/d4/39e6d4c4f0572317e8a6c123e5d21015.jpg");
-    background-repeat: no-repeat;
-
-
 }
 .imgcontent{
     
@@ -18,4 +12,9 @@
 }
 .fwh{
     font-size: 70px;
+}
+.spanicon:hover{
+    box-shadow: 5px 5px 5px 1px black;
+    background-color: rgba(134, 133, 133, 0.385);
+    transition: 700ms;
 }

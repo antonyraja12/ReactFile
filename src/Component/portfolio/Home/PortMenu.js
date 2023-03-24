@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export function PortMenu(){
     return(
         <>
-     <nav className="navbar navbar-expand-lg navbar-light bg-light">
+     <nav className="navbar navbar-expand-lg navbar-light  fixed-top  bg-info">
          <div className="container-fluid ">
               <Link className="navbar-brand" to='/'><img src="https://raw.githubusercontent.com/shahzaibkhalid/mern-app-generator/master/static/logo.png"height="45px"width="40px" alt="no image"/></Link>
                  <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
