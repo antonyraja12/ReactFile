@@ -17,6 +17,10 @@ import { FruitController } from './Component/hookFruitcontroller/fruitcontrol';
 import { Feedback } from './Component/feedback page/feedback';
 import { Response } from './Component/feedback page/response';
 import { Datefun } from './Component/Datefunction/DateFunction';
+import { About } from '../src/Component/portfolio/About/About';
+import { Certification } from './Component/portfolio/Certification/certification';
+import { Contact } from './Component/portfolio/contact/contact';
+
 function App() {
   return (
   <>
@@ -29,7 +33,7 @@ function App() {
                   <Route path='/Socialmedia'element={[<Menu/>,<Socialmedia/>]}></Route>
                   <Route path='/Notification'element={[<Menu/>,<Notification/>]}></Route>
                   <Route path='/login'element={[<Menu/>,<LoginPage/>]}></Route>
-                  <Route path='/portfolio'element={[<PortMenu/>,<Home/>]}></Route>
+                  <Route path='/portfolio'element={[<PortMenu/>,<Home/>,<About/>,<Contact/>]}></Route>
                   <Route path='/tech/card'element={[<Menu/>,<Techcard/>]}></Route>
                   <Route path='/hook/set'element={[<Menu/>,<Hookset/>]}/>
                   <Route path='/FruitControl'element={[<Menu/>,<FruitController/>]}/>
@@ -43,4 +47,5 @@ function App() {
         </>
   );
 }
+
 export default App;

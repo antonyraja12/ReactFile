@@ -13,9 +13,9 @@ export function Home(){
         <div className="d-flex justify-content-center homeP ">
             <div className="row container  ">
             <div className="col-lg-6 container-fluid contentP ">
-                <h1 className=" colr">Hello,</h1>
+                <h1 className="text-primary">Hello,</h1>
                 <h1 className="fwh">I'm Antony Raja.</h1>
-                <h2 className="text-primary">FullStack Developer</h2>
+                <h2 className="text-primary">Certified MERNStack Developer</h2>
                 <p>Everyone in this country should learn how to program,<br/>
                 because it's teaches you how to think.</p>
                 

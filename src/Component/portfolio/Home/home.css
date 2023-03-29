@@ -4,8 +4,6 @@
 .imgcontent{
     
     background-size: cover;
-    
-    
 }
 .contentP{
     padding-top: 150px;
@@ -16,5 +14,5 @@
 .spanicon:hover{
     box-shadow: 5px 5px 5px 1px black;
     background-color: rgba(134, 133, 133, 0.385);
-    transition: 700ms;
+    transition: 700ms;  
 }
