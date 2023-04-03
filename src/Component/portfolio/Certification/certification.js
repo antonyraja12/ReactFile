@@ -1,49 +1,36 @@
-import React, { useState } from "react";
+import React from "react";
 import SimpleImageSlider from "react-simple-image-slider";
-import pics  from "../../../certificates/Basics of java.pdf"
+import java  from "../../../certificates/Basics of java-1.png"
+import mongo  from "../../../certificates/CRUD_MongoDB-1.png"
+import tech  from "../../../certificates/Tech Foundation-1.png" 
+import scratch  from "../../../certificates/hongkong_Scratch-1.png" 
+import html  from "../../../certificates/html_sp-1.png" 
+import metadep  from "../../../certificates/metaDepth-1.png" 
+import metaintro  from "../../../certificates/meta_intro-1.png"
+import './certification.css';
 
-export  function Certification() {
-    var pic ;
-   const [imageNum, setImageNum] = useState(1);
-   const sliderImages = [
-      {
-         pic:{pics}
-      },
-      {
-         url: "https://thumbs.dreamstime.com/b/lone-tree-meadow-sunriseidyllic-fabulous-landscapes-39659821.jpg",
-      },
-      {
-         url: "https://encryptedtbn0.gstatic.com/images?q=tbn:ANd9GcSprPgYofGmXXPfuEDcZ_XI294n0bME5dTX9TGvINmPiA&s",
-      },
-      {
-         url: "https://i.pinimg.com/474x/81/ca/47/81ca47eaae35615ba9a9bb57560aaa3c.jpg",
-      },
-      {
-         url: "https://encryptedtbn0.gstatic.com/images?q=tbn:ANd9GcTof2fniv0mZzN8DByLmb6ILU4MvV_SGr_wptMeAut_dPaYMBkeHnHhD5egzU7MB0GSqE&usqp=CAU",
-      },
-   ];
-   return (
-      <div>
-         <h3>
-            {" "}
-            Creating the image slider using the react-simple-image-slider
-         </h3>
-       <p className="d-flex justify-content-center">  <SimpleImageSlider 
-            width="90%"
-            height="100%"
-            images={sliderImages}
-            showBullets={true}
-            showNavs={true}
-            autoPlay={true} 
-            onStartSlide = {(index, length) => {
-               setImageNum(index);
-            }}
-               autoPlayDelay = {3}
-         />
-         </p>
-         <div style = {{ fontSize: "1.5rem" }}>
-            The current image slide No is {imageNum}.
-         </div>
-      </div>
-   );
+
+
+
+   
+  export function Certification() {
+   return( 
+   <>
+   <div className="d-flex align-items-center">
+   <div className="cetmain" id="certificate">
+      <div>   <h1 className="text-center">Certifications</h1>
+     <div className="certifidiv p-5">
+      
+      <img src={java} alt="" className="imgcer"/>
+      <img src={mongo} alt="" className="imgcer"/>
+      <img src={tech} alt="" className="imgcer"/>
+      <img src={scratch} alt="" className="imgcer"/>
+      <img src={html} alt="" className="imgcer"/>
+      <img src={metadep} alt="" className="imgcer"/>
+      <img src={metaintro} alt="" className="imgcer"/>   
+   </div>
+   </div>
+   </div>
+   </div>
+      </>);
 }

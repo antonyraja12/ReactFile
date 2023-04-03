@@ -10,7 +10,7 @@ export function LoginPage(){
             <>
 
                     
-                    <div className="   " >
+                    <div className=" ">
                         <div className="">
                         <h1>Member Login</h1>
                         <div className="bg-secondary rounded-5 divlog" ><FontAwesomeIcon icon={faEnvelope}/><input type="text" placeholder="E-mail" className="border-0 bg-transparent inplogin"  /></div>

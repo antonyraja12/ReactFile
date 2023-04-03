@@ -17,7 +17,7 @@ export function Menu(){
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <Link class="navbar-brand" href="#">Moodle Assesment</Link>
  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
- <Link className="link1" to='/'><li className=" text-decoration-none  ms-3 text-dark ">HelloWorld</li></Link>
+ <Link className="link1" to='/hello'><li className=" text-decoration-none  ms-3 text-dark ">HelloWorld</li></Link>
  <Link className="link1" to='/congrates'><li className=" ms-3 text-dark ">Congrates</li></Link>
  <Link className="link1" to='/Superleague'> <li  className="ms-3 text-dark">Superleague</li></Link>
  <Link className="link1" to='/Socialmedia'><li className="ms-3 text-dark">Socialbutton</li></Link>
@@ -35,7 +35,7 @@ export function Menu(){
           <Link className="link1"to="/DateFunction"><li className="ms-3 text-dark">Date Function</li></Link>
       </ul>
         </li>
-        <Link className="link1" to="/portfolio"><li className="ms-3 text-dark">portfolio</li></Link> 
+        <Link className="link1" to="/"><li className="ms-3 text-dark">portfolio</li></Link> 
         
 
      </ul>

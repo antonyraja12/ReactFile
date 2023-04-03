@@ -1,0 +1,31 @@
+.projectdiv{
+    min-height: 100vh;
+}
+.card_bg{
+    background-size: cover;
+    background-position: center;
+    bottom: 0;
+    filter:  brightness(0.75)saturate(1.2)contrast(0.85);
+    left: 0;
+    position: relative;
+    right: 0;
+    top: 0;
+    transform-origin: center;
+    transform: scale(1)translateZ(0);
+    opacity: 0.7 ;
+    padding: 20px;
+    
+    transition: 
+     filter 200ms linear,
+     transform 200ms linear;
+    
+}
+.card_bg:hover.card_bg{
+    transform: scale(1.05)translatez(0);
+    opacity: 1;
+    filter: contrast(0.90)brightness(1.0)saturate(1.0);
+    color:blueviolet;
+}
+.card_grid:hover>.card:not(:hover).card_bg{
+    filter: brightness(0.2)saturate(0.5)blur(20px);
+}

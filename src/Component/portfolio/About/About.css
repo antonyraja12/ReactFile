@@ -1,0 +1,13 @@
+
+#about{
+    background-color: aquamarine;
+    min-height: 100vh;
+    padding-top: 3%;
+}
+
+.educat{
+    border-radius: 30px;
+    border-top: 10px solid rgba(59, 40, 233, 0.874);
+    background-color:aquamarine;
+    
+}   

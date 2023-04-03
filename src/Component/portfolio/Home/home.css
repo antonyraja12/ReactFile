@@ -15,4 +15,5 @@
     box-shadow: 5px 5px 5px 1px black;
     background-color: rgba(134, 133, 133, 0.385);
     transition: 700ms;  
+    color: black !important;
 }

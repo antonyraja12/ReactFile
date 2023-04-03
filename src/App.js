@@ -21,6 +21,10 @@ import { About } from '../src/Component/portfolio/About/About';
 import { Certification } from './Component/portfolio/Certification/certification';
 import { Contact } from './Component/portfolio/contact/contact';
 import { Skills } from './Component/portfolio/Skills/Skills';
+import { Project } from './Component/portfolio/projects/project';
+// import Carousel from 'react-native-snap-carousel';
+// import { View,Text } from 'react-native';
+
 
 function App() {
   return (
@@ -28,13 +32,13 @@ function App() {
       
         <BrowserRouter>
               <Routes>
-                  <Route path='/' element={[<Menu/>,<Display1/>]}></Route>
+                  <Route path='/home' element={[<Menu/>,<Display1/>]}></Route>
                   <Route path='/congrates'element={[<Menu/>,<Cardimage/>]}></Route>
                   <Route path='/Superleague'element={[<Menu/>,<Superleague/>]}></Route>
                   <Route path='/Socialmedia'element={[<Menu/>,<Socialmedia/>]}></Route>
                   <Route path='/Notification'element={[<Menu/>,<Notification/>]}></Route>
                   <Route path='/login'element={[<Menu/>,<LoginPage/>]}></Route>
-                  <Route path='/portfolio'element={[<PortMenu/>,<Home/>,<About/>,<Contact/>,<Skills/>]}></Route>
+                  <Route path='/'element={[<PortMenu/>,<Home/>,<About/>,<Certification/>,<Skills/>,<Project/>,<Contact/>]}></Route>
                   <Route path='/tech/card'element={[<Menu/>,<Techcard/>]}></Route>
                   <Route path='/hook/set'element={[<Menu/>,<Hookset/>]}/>
                   <Route path='/FruitControl'element={[<Menu/>,<FruitController/>]}/>

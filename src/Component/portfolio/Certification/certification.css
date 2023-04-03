@@ -1,3 +1,41 @@
-.ans{
+.certifidiv{
+    display:flex;
+    gap: 5%;
+    
+
+}
+.imgcer{
+    width: 30%;    
+    transition: 300ms ease-in-out;
+    
+
+}
+.imgcer+.imgcer{
+    margin-left: -25%;
+}
+.imgcer:hover{
+    transform: scale(1.3);
+}
+.imgcer:hover~.imgcer{
+    z-index: 1;
+    translate: 80%;
+}
+.cetmain{
+    min-height: 100vh;
+    display: inline-flex;
+    align-items: center;
+    
+    
+}
+.position{
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 600px){
+    .cetmain
+    {
+        min-height: 100%;
+    }
+    
     
 }
