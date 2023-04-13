@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.fonts{
+    font-family: 'Courgette';
+}
+
 .homeP{
     min-height: 100vh;
+    
 }
 .imgcontent{
     
     background-size: cover;
 }
 .contentP{
-    padding-top: 150px;
+    padding-top: 20%;
 }
 .fwh{
     font-size: 70px;

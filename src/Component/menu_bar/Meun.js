@@ -33,6 +33,8 @@ export function Menu(){
           <li><Link className="link1" to ="/FruitControl"><li className="ms-3 text-dark">FruitControl</li></Link></li>
           <Link className="link1"to="/feedback"><li className="ms-3 text-dark"> Feed back</li></Link>
           <Link className="link1"to="/DateFunction"><li className="ms-3 text-dark">Date Function</li></Link>
+          <Link className="link1"to="/jsoncard"><li className="ms-3 text-dark">Json Card</li></Link>
+          <Link className="link1"to="/fackstoreapi"><li className="ms-3 text-dark">Fack Store Data</li></Link>
       </ul>
         </li>
         <Link className="link1" to="/"><li className="ms-3 text-dark">portfolio</li></Link> 

@@ -12,7 +12,7 @@ export function PortMenu(){
                  <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span> </button>
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className ="navbar-nav ">
+            <ul className ="navbar-nav ms-auto ">
              <li class="nav-item ms-3">
                   <Linkto class="nav-link active" to="home"smooth={true}duration={350} ac>Home</Linkto> </li>
                   <li class="nav-item ms-3"><Linkto to='about' smooth={true}duration={350} class="nav-link active ">About </Linkto> </li>

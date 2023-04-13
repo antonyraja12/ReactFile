@@ -10,8 +10,8 @@ import { Link } from "react-router-dom";
 export function Project(){
     return(
         <>
-        <div className="projectdiv p-3" id='project'>
-        <h1 className="text-center" >About My Works</h1>
+        <div className="projectdiv p-3 " id='project'>
+        <h1 className="text-center fonts" >About My Works</h1>
         <h4 className="text-center">These are some project templates I created on my own</h4>
         <div className="row mx-auto carg_grid">   
             <div className="col-6 col-lg-4 card_bg">

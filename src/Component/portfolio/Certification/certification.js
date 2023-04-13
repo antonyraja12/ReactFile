@@ -10,7 +10,7 @@ import metaintro  from "../../../certificates/meta_intro-1.png"
 import './certification.css';
 
 
-
+  
 
    
   export function Certification() {
@@ -18,7 +18,7 @@ import './certification.css';
    <>
    <div className="d-flex align-items-center">
    <div className="cetmain" id="certificate">
-      <div>   <h1 className="text-center">Certifications</h1>
+      <div>   <h1 className="text-center fonts">Certifications</h1>
      <div className="certifidiv p-5">
       
       <img src={java} alt="" className="imgcer"/>

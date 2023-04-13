@@ -13,13 +13,14 @@ export function About(){
                <p className="text-center "> <img src={anto} alt="no pics" className="col-10 rounded-5"/></p>
             </div>
             <div className="col-lg-7">
-                <h2 className="fs-1 ">About Myself</h2>
+                <h2 className="fs-1 fonts ">About Myself</h2>
                 <p className="fs-5">I am a person who works really hard and is energetic, self-motivated, and trustworthy.  
                 responsible team player who can easily adjust to any difficult circumstances.  
                 I can work well on my own initiative as well as in a collaborative setting. 
                 I can stay on task and meet deadlines even when under duress.</p>
                 <h2>Education</h2>
-                <div className="row p-3 text-center rounded-5 bg-light">
+            
+                <div className="row p-3 text-center rounded-5 bg-light ">
                     <div className="col-lg-4 ">
                        <div className=" educat">
                        <h4>B.Sc(CS)</h4>
@@ -31,7 +32,7 @@ export function About(){
 
                        </div>
                     </div>
-                    <div className="col-lg-4  ">
+                    <div className="col-lg-4 mt-2 ">
                             <div className=" educat">
                              <h4>HSE</h4>
                               <p>St.Antony's Hr Sec School,</p>
@@ -41,7 +42,7 @@ export function About(){
                    
                             </div>
                      </div>
-                    <div className="col-lg-4 ">
+                    <div className="col-lg-4 mt-2">
                             <div className="educat">
                              <h4>SSLC</h4>
                              <p>St.Antony's Hr Sec School,</p>
@@ -54,8 +55,8 @@ export function About(){
                 </div>
 
 
+            
             </div>
-
 
           </div>
         </div>

@@ -22,6 +22,9 @@ import { Certification } from './Component/portfolio/Certification/certification
 import { Contact } from './Component/portfolio/contact/contact';
 import { Skills } from './Component/portfolio/Skills/Skills';
 import { Project } from './Component/portfolio/projects/project';
+import { Jsoncard } from './Component/task8/jsondatacard';
+import { Fackstore } from './Component/task8/fackstore';
+import { Product } from './Component/task8/product';
 // import Carousel from 'react-native-snap-carousel';
 // import { View,Text } from 'react-native';
 
@@ -45,6 +48,9 @@ function App() {
                   <Route path='/feedback'element={[<Menu/>,<Feedback/>]}/>
                   <Route path='/response'element={[<Menu/>,<Response/>]}/>
                   <Route path='/DateFunction'element={[<Menu/>,<Datefun/>]}/>
+                  <Route path='/jsoncard'element={<Jsoncard/>}/>
+                  <Route path='/fackstoreapi'element={<Fackstore/>}/>
+                  <Route path='/description/:id'element={<Product/>}/>
                   
 
               </Routes>
