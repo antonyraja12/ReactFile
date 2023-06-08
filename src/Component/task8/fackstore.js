@@ -11,7 +11,7 @@ export function Fackstore(){
         .then(data=>setProduct(data))
         console.log(product);
 
-    },[]);
+    },[]);  
 
     return (
         <>

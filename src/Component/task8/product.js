@@ -1,17 +1,17 @@
-import { faDiscord } from "@fortawesome/free-brands-svg-icons";
-import { faUser } from "@fortawesome/free-regular-svg-icons";
-import { faShapes, faShare, faTag } from "@fortawesome/free-solid-svg-icons";
+import {  faTag } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 export function Product(){
     let {id} = useParams(); 
+    
     const [product,setProduct]=useState([]);
     useEffect(()=>{
         fetch("https://fakestoreapi.com/products/"+id)
         .then(res=>res.json())
-        .then(data=>setProduct(data))
+        .then(data=>setProduct(data));
+        console.log(product);
         
 
     },[]);

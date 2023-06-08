@@ -11,8 +11,8 @@ export function Jsoncard() {
             .then(res => res.json())
             .then(data => setProduct(data))
 
-    }, []);
-
+    },[]);
+    
     return (
         <>
 
